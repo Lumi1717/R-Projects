@@ -7,7 +7,7 @@ version <- lapply(packages, packageVersion)
 version_c <- do.call(c, version)
 
 # load your dataset
-setwd("/Users/ahlamyusuf/Desktop/Project")
+setwd("/Users/user/Desktop/Project")
 quakes<-read.csv('2022_dataset.csv')
 
 # make sure the data format is right
